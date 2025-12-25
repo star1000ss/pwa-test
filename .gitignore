@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+.env.local
+.env.*.local
+
+# 2. Vite 產出的建置檔案
+/dist
+/dist-ssr
+
+# 3. 排除資料庫備份或暫存 
+supabase/.temp
+supabase/.env
+
+# 4. 針對 PWA 或網頁圖示的快取 
+.eslintcache
